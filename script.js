@@ -62,7 +62,7 @@ if (SpeechRecognition) {
       },
       "See you then": () =>{
         document.querySelector("#mainText").className = "variable7";
-        document.querySelector("#image").src = "./img/D.gif"
+        document.querySelector("#image").src = "./img/D2.gif"
         document.querySelector("#mainText").textContent = "Tiri Kananuruk";
         document.body.style.backgroundColor = "tan";
       },
