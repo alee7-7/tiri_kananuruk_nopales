@@ -20,8 +20,9 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: white;
+  background-color: rgb(115, 63, 28);
   transition: background-color 1s ease-in-out, background-image 1s ease-in-out;
+  border-radius: 25px;
 }
 
 button {
@@ -31,6 +32,7 @@ button {
   font-family: 'variableFont';
   color: black; 
   border: none;
+  border-radius: 25px;
 }
 
 button:hover {
@@ -43,67 +45,107 @@ button:hover {
 
 /* text ================================================ */
 #mainText {
+  margin-top: 10px;
   font-family: 'variableFont';
   font-size: 10vw;
   transition: font-variation-settings 1s ease-in-out, color 1s ease-in-out;
+  border-radius: 25px;
 }
 
 .variable0 {
 	font-variation-settings: "CK  " 0, "FR  " 0, "HV  " 0, "CN  " 0, "BR  " 0, "TC  " 0;
-  color: white;
+  color: tan;
+  background-color: green;
+  padding: 20px;
+  border-radius: 25px;
 }
 
 .variable1 {
   font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "rvrn" 1, "kern" 1, "rclt" 1;  
   font-variation-settings: "wght" 100, "ctst" 800;
-  color: red;
-  background-color: white;
+  color: rgb(115, 63, 28);
+  background-color: green;
   padding: 20px;
+  border-radius: 25px;
 }
 
 .variable2 {
   font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "rvrn" 1, "kern" 1, "rclt" 1;  
   font-variation-settings: "wght" 100, "ctst" 0;
   color: green;
-  background-color: white;
+  background-color: rgb(115, 63, 28);
   padding: 20px;
+  border-radius: 25px;
 }
 
 .variable3 {
   font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "rvrn" 1, "kern" 1, "rclt" 1;  
   font-variation-settings: "wght" 900, "ctst" 0;
-  color: red;
-  background-color: white;
+  color: green;
+  background-color: tan;
   padding: 20px;
+  border-radius: 25px;
 }
 
 .variable4{
   font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "rvrn" 1, "kern" 1, "rclt" 1;  
   font-variation-settings: "wght" 900, "ctst" 800;
   color: green;
-  background-color: white;
+  background-color: rgb(115, 63, 28);
   padding: 20px;
+  border-radius: 25px;
 }
+
+.variable5{
+  font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "rvrn" 1, "kern" 1, "rclt" 1;  
+  font-variation-settings: "wght" 900, "ctst" 800;
+  color: rgb(115, 63, 28);
+  background-color: green;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.variable6{
+  font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "rvrn" 1, "kern" 1, "rclt" 1;  
+  font-variation-settings: "wght" 900, "ctst" 800;
+  color: tan;
+  background-color: rgb(115, 63, 28);
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.variable7{
+  font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "rvrn" 1, "kern" 1, "rclt" 1;  
+  font-variation-settings: "wght" 900, "ctst" 800;
+  color: #d2b48c;
+  background-color: green;
+  padding: 20px;
+  border-radius: 25px;
+
+  animation: shiningLight 4s linear infinite;
+}
+
+
+
 
 .variable9{
   font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "rvrn" 1, "kern" 1, "rclt" 1;  
   font-variation-settings: "THCK" 0, "grow" 0;
-
-  color: red;
+  color: white;
   background-color: white;
   padding: 20px;
 
   animation: rainbowColor 4s linear infinite;
 }
 
-@keyframes rainbowColor {
-  0%   { color: red; }
-  16%  { color: orange; }
+@keyframes shiningLight {
+  0%   { color: yellow; }
+  16%  { color: green; }
   33%  { color: yellow; }
   50%  { color: green; }
-  66%  { color: blue; }
-  83%  { color: indigo; }
-  100% { color: violet; }
+  66%  { color: yellow; }
+  83%  { color: green; }
+  100% { color: yellow; }
 }
 
 
@@ -111,8 +153,8 @@ button:hover {
 
 /* Image ================================================ */
 #image {
-  width: 700px;
-  margin-top: 50px;
+  width: 800px;
+  /* margin-top: 50px; */
 }
 
 
